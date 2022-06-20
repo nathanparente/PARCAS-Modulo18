@@ -1,0 +1,3 @@
+O JavaScript realiza uma manipulação direta de DOM e isso gasta mais energia pra carregar as informações 
+
+já o React usa o virtual DOM direto pela memória RAM, então é uma réplica do site na memória 

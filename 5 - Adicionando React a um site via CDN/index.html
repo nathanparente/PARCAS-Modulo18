@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Colocando o React</title>
+</head>
+<body>
+    <!-- COLOCANDO O REACT EM UM SITE QUE JÁ EXISTE-->
+    <div id="site"></div>
+
+    <!-- O BABEL USA A TECNOLOGIA JX E RESUME ALGUNS CÓDIGOS   
+        <script>
+            let botao = <button>Clique Aqui com BABEL</button>
+            
+            ReactDOM.render(botao, document.getElementById('site'));
+        </script>
+
+    -->
+    <script>
+        let botao = React.createElement('button', {}, 'Clique Aqui');
+
+        ReactDOM.render(botao, document.getElementById('site'));
+    </script>
+</body>
+</html>

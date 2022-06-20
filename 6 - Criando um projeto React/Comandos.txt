@@ -1,0 +1,11 @@
+ABRIR TERMINAL/CMD 
+
+PRA FAZER A INSTALAÇÃO E CRIAR A PASTA [nome do arquivo]
+
+npx create-react-app [nome do arquivo]
+
+DENTRO DA PASTA DO MEU PROJETO REACT 
+
+ABRIR TERMINAL/CMD
+
+npm start 

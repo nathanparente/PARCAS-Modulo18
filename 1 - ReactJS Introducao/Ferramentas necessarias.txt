@@ -1,0 +1,4 @@
+Ferramentas Necessária: 
+- Editor de Código (VSCode ou SublimeText)
+- Base em JavaScript, HTML e CSS
+- Node 8(NPM, Yard)

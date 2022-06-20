@@ -1,0 +1,8 @@
+Link para instalar 
+https://nodejs.org/en/
+
+comandos no prompt pra saber se deu certo a atualização 
+
+npm -v 
+
+node -v
